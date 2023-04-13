@@ -3,16 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Player))]
 [RequireComponent(typeof(PlayerMoverController))]
 [RequireComponent(typeof(PlayerShooterController))]
 public class PlayerAnimationsSwitcher : MonoBehaviour
 {
+    private const string Hurt = "Hurt";
     private const string Speed = "Speed";
     private const string IsJumping = "IsJumping";
     private const string IsShooting = "IsShooting";
     private const string OnWall = "OnWall";
 
     private Animator _animator;
+    private Player _player;
     private PlayerMoverController _playerMoverController;
     private PlayerShooterController _playerShooterController;
     private Coroutine _currentCoroutine;
@@ -22,18 +25,21 @@ public class PlayerAnimationsSwitcher : MonoBehaviour
     private void Awake()
     {
         _animator = GetComponent<Animator>();
+        _player = GetComponent<Player>();
         _playerMoverController = GetComponent<PlayerMoverController>();
         _playerShooterController = GetComponent<PlayerShooterController>();
     }
 
     private void OnEnable()
     {
+        _player.Hurted += OnHited;
         _playerMoverController.PlayerCurrentSpeedChanged += OnPlayerCurrentSpeedChanged;
         _playerShooterController.PlayerShooted += OnPlayerShooted;
     }
 
     private void OnDisable()
     {
+        _player.Hurted -= OnHited;
         _playerMoverController.PlayerCurrentSpeedChanged -= OnPlayerCurrentSpeedChanged;
         _playerShooterController.PlayerShooted -= OnPlayerShooted;
     }
@@ -42,6 +48,11 @@ public class PlayerAnimationsSwitcher : MonoBehaviour
     {
         TryTurnJumpAnimation();
         TryTurnHangingOnWallAnimation();
+    }
+
+    private void OnHited()
+    {
+        _animator.Play(Hurt);
     }
 
     private void OnPlayerCurrentSpeedChanged(float currentSpeed)

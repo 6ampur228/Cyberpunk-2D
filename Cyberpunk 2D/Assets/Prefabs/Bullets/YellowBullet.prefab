@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4756088604837216587}
   - component: {fileID: 4006996205385363395}
-  - component: {fileID: 6103797478650268147}
+  - component: {fileID: -4899737969452992048}
+  - component: {fileID: 9185734009059001948}
   m_Layer: 0
   m_Name: YellowBullet
   m_TagString: Untagged
@@ -85,7 +86,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6103797478650268147
+--- !u!58 &-4899737969452992048
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2483396876972272410}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.56, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.107809305
+--- !u!114 &9185734009059001948
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,7 +111,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2483396876972272410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19c7358f2452f064a9f3d85183b13720, type: 3}
+  m_Script: {fileID: 11500000, guid: 100c6d36d620abb43b94a58d2f8d7b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 2

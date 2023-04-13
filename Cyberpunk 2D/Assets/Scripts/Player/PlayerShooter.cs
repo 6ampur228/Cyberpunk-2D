@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerShooter : MonoBehaviour
 {
     [SerializeField] private Transform _shootPoint;
-    [SerializeField] private Bullet[] _templates;
+    [SerializeField] private PlayerBullet[] _templates;
 
     [SerializeField] private float _shootDelay;
 

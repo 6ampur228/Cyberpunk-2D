@@ -384,8 +384,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/InputActions/PlayerInput.cs"
-"Assets/Scripts/Bullet.cs"
+"Assets/Scripts/Bullets/Bullet.cs"
+"Assets/Scripts/Bullets/EnemyBullet.cs"
+"Assets/Scripts/Bullets/PlayerBullet.cs"
 "Assets/Scripts/CameraFollow.cs"
+"Assets/Scripts/Enemy/Dron/Detector.cs"
+"Assets/Scripts/Enemy/Dron/Dron.cs"
+"Assets/Scripts/Enemy/Dron/DronMover.cs"
+"Assets/Scripts/Enemy/Dron/DronShooter.cs"
+"Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerAnimationsSwitcher.cs"
 "Assets/Scripts/Player/PlayerAudio.cs"
@@ -393,6 +400,8 @@
 "Assets/Scripts/Player/PlayerMoverController.cs"
 "Assets/Scripts/Player/PlayerShooter.cs"
 "Assets/Scripts/Player/PlayerShooterController.cs"
+"Assets/Scripts/SlowMotion.cs"
+"Assets/Scripts/SlowMotionController.cs"
 -langversion:9.0
 
 /deterministic
