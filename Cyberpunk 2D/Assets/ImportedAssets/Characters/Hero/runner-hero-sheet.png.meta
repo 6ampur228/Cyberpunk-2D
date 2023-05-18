@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: d99216d5bcd73fa49a5fc3656fc816bf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: runner-hero-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 192
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.48713464, y: 0.00046312486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377f5287d78c6f64aa6ddf781f508ed7
+      internalID: -1994792167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 192
+        width: 32
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4855647, y: 0.0005438063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8712613fbe421a419bfa1cbbd35aa0e
+      internalID: 847411279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 192
+        width: 32
+        height: 35
+      alignment: 9
+      pivot: {x: 0.48463488, y: 0.0014648438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ada0ae76f4ebec4ab7673d92ec48809
+      internalID: -1858585096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 192
+        width: 32
+        height: 35
+      alignment: 9
+      pivot: {x: 0.48463488, y: -0.0002493722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391cf42ccff57d24d9d3dcc670e998e2
+      internalID: 764037485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 144
+        width: 35
+        height: 34
+      alignment: 9
+      pivot: {x: 0.49930492, y: -0.00026029698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a15fbb88d618745a0ba61105615b6c
+      internalID: -1073020348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 144
+        width: 37
+        height: 35
+      alignment: 9
+      pivot: {x: 0.50110525, y: -0.00088762556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a7efae3ddce2f489564f684e5ca6e8
+      internalID: -392151102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 147
+        width: 36
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5002755, y: -0.0008172428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861d10a2eb5919641863d8f75c057ce9
+      internalID: 1457098166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 148
+        width: 35
+        height: 31
+      alignment: 9
+      pivot: {x: 0.49977896, y: -0.0005778651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fd25772e69f704cb1f67eea4edbfc4
+      internalID: -689664068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 144
+        width: 35
+        height: 34
+      alignment: 9
+      pivot: {x: 0.49943805, y: -0.0008096134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b3c435b13449c489e87bfeaf2f27df
+      internalID: -1108795853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 144
+        width: 35
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5011222, y: -0.00039302942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577d1bccb52e7bf4ca87c3c63d5e3aab
+      internalID: 775456485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 144
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.49975407, y: -0.0008172428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdef3169584dfbe40a3e332af622617b
+      internalID: -629860727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 146
+        width: 32
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5002146, y: 0.000548854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c1092cc28262e4ea4e034bf5708379
+      internalID: 365645028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 146
+        width: 33
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5003385, y: -0.00007826282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db09cfdd24de7f4ca256d348c908e3d
+      internalID: 1952678775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 64
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9579d46bd25e4844b1b519a16ee5fa7
+      internalID: 835998124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 64
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f77076919cce64898f6a492811cbdd
+      internalID: 1214892221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 98
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a84996f08dc4c4bb5c0317a36649e5
+      internalID: -945096920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 101
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae7c5027821f584f9fd26e204dcbda9
+      internalID: -966283866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 98
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed12f02b447b014c990a7a7d1da4ca0
+      internalID: 1852801384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 67
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600eb282615d48542a6091400b568e95
+      internalID: 535583138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f338324d23ee4544b7746d8c568710c
+      internalID: 616663780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 64
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3452c4f60a931124fb4794ff49e20742
+      internalID: 1105952704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 64
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9234396f1c5784bbe49bb2edc27d87
+      internalID: 1350756311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 54
+        height: 57
+      alignment: 9
+      pivot: {x: 0.38338497, y: -0.000546216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd0203bb85f95941b34c36a50b1506b
+      internalID: 187223288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 49
+        height: 57
+      alignment: 9
+      pivot: {x: 0.42385554, y: 0.00044886468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821652ea995ff55489b24508dfbfca72
+      internalID: -1283592196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 32
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4849971, y: 0.0016237829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6973f75d7416447a3201811252cf1a
+      internalID: 386737929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 37
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5029499, y: 0.0011972546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76214651d2f77a24eb778aca1a154353
+      internalID: -7086335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 48
+        height: 36
+      alignment: 9
+      pivot: {x: 0.20154159, y: 0.00018133859}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0028ede10884143947cfce6f218286
+      internalID: -1985467949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runner-hero-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 33
+        height: 35
+      alignment: 9
+      pivot: {x: 0.50445276, y: 0.0016387556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdd2eb0086553e429b6522599a59353
+      internalID: 512984113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      runner-hero-sheet_11: 365645028
+      runner-hero-sheet_9: 775456485
+      runner-hero-sheet_19: 616663780
+      runner-hero-sheet_10: -629860727
+      runner-hero-sheet_12: 1952678775
+      runner-hero-sheet_7: -689664068
+      runner-hero-sheet_23: 1350756311
+      runner-hero-sheet_32: 512984113
+      runner-hero-sheet_20: 1105952704
+      runner-hero-sheet_14: 1214892221
+      runner-hero-sheet_15: -945096920
+      runner-hero-sheet_17: 1852801384
+      runner-hero-sheet_25: 1562414349
+      runner-hero-sheet_0: -1994792167
+      runner-hero-sheet_8: -1108795853
+      runner-hero-sheet_26: -1283592196
+      runner-hero-sheet_24: 187223288
+      runner-hero-sheet_31: 1307962256
+      runner-hero-sheet_4: -1073020348
+      runner-hero-sheet_16: -966283866
+      runner-hero-sheet_13: 835998124
+      runner-hero-sheet_18: 535583138
+      runner-hero-sheet_21: 841520304
+      runner-hero-sheet_29: -7086335
+      runner-hero-sheet_30: -1985467949
+      runner-hero-sheet_2: -1858585096
+      runner-hero-sheet_22: -786292671
+      runner-hero-sheet_27: -919216539
+      runner-hero-sheet_5: -392151102
+      runner-hero-sheet_3: 764037485
+      runner-hero-sheet_28: 386737929
+      runner-hero-sheet_1: 847411279
+      runner-hero-sheet_6: 1457098166
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

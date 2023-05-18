@@ -16,7 +16,6 @@ public class Dron : Enemy
         if(collision.TryGetComponent(out PlayerBullet bullet))
         {
             TakeDamage(bullet.Damage);
-            TryDie();
         }
     }
 }

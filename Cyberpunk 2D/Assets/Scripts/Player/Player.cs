@@ -21,25 +21,21 @@ public class Player : MonoBehaviour
         if(collision.TryGetComponent(out EnemyBullet bullet))
         {
             TakeDamage(bullet.Damage);
-            TryDie();
         }
     }
 
-    private void TakeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         if (damage < 0)
             throw new ArgumentException("Damage value cannot be negative");
 
         _currentHealth -= damage;
 
-        Hurted?.Invoke();
-    }
-
-    private void TryDie()
-    {
-        if(_currentHealth <= 0)
+        if (_currentHealth <= 0)
         {
             Destroy(gameObject);
         }
+
+        Hurted?.Invoke();
     }
 }

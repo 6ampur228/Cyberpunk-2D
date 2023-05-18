@@ -284,7 +284,7 @@ TextureImporter:
         width: 80
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,6 +292,27 @@ TextureImporter:
       bones: []
       spriteID: 8ab2f59e06e384b4282b204f49b3b69a
       internalID: 1609602902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buildings_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 113
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e798417a5e4f10442bca5ca531b0c124
+      internalID: 320109826
       vertices: []
       indices: 
       edges: []
@@ -309,6 +330,7 @@ TextureImporter:
     nameFileIdTable:
       Buildings_2: -1568239083
       Buildings_0: -1986705182
+      Buildings_8: 320109826
       Buildings_6: -1370968329
       Buildings_7: 1609602902
       Buildings_1: 1809435593

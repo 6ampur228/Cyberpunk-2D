@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: 836f0a51d86176540a503459e8e51040
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: torch_fire_sprites_by_flashingpixel_dbc7dw4_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 29
+        width: 26
+        height: 60
+      alignment: 9
+      pivot: {x: 0.54574496, y: -0.00014562607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb1b032c25da804aac81ee80dac9412
+      internalID: 876561681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torch_fire_sprites_by_flashingpixel_dbc7dw4_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 29
+        width: 26
+        height: 62
+      alignment: 9
+      pivot: {x: 0.46481162, y: 0.0027073275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1a2197734fd8b41a31c66f967f82d3
+      internalID: 28368718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torch_fire_sprites_by_flashingpixel_dbc7dw4_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 29
+        width: 24
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: -0.00004048183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f161aab35cf31346bb54e19d4762ded
+      internalID: 1667572311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torch_fire_sprites_by_flashingpixel_dbc7dw4_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 29
+        width: 22
+        height: 62
+      alignment: 9
+      pivot: {x: 0.54574513, y: 0.0012316857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444a8cea18294f843bcaa782ad7a606a
+      internalID: -710207616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torch_fire_sprites_by_flashingpixel_dbc7dw4_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 29
+        width: 22
+        height: 66
+      alignment: 9
+      pivot: {x: 0.54990387, y: -0.00042291122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931f2ffb5d593e641b67c3a50bbe5d8e
+      internalID: -935659139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torch_fire_sprites_by_flashingpixel_dbc7dw4_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 29
+        width: 24
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50381213, y: -0.0018498758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e1dbe2a8f19484c95a546465014eaa
+      internalID: 1900757786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torch_fire_sprites_by_flashingpixel_dbc7dw4_8
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 29
+        width: 24
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: -0.00050440955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5619ee243f308bc46aee0d8b90dd2e8e
+      internalID: -1660489451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torch_fire_sprites_by_flashingpixel_dbc7dw4_9
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 29
+        width: 24
+        height: 76
+      alignment: 9
+      pivot: {x: 0.50381213, y: -0.0007876848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b414d9baf4c71f44a8e0aeb763b09121
+      internalID: -1274869196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torch_fire_sprites_by_flashingpixel_dbc7dw4_10
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 29
+        width: 26
+        height: 78
+      alignment: 9
+      pivot: {x: 0.46129197, y: -0.00084940594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9bfca34a817b849bba3e5b7fd87e35
+      internalID: -2132007736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_8: -1660489451
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_9: -1274869196
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_1: -313095777
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_6: -935659139
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_7: 1900757786
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_10: -2132007736
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_0: 1945604526
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_2: 876561681
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_5: -710207616
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_4: 1667572311
+      torch_fire_sprites_by_flashingpixel_dbc7dw4_3: 28368718
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

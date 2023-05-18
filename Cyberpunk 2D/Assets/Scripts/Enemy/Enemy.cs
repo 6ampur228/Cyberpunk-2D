@@ -7,21 +7,36 @@ public abstract class Enemy : MonoBehaviour
 {
     [SerializeField] private float _health;
 
-    private float _currentHealth;
+    private AudioSource _dieSound;
+
+    public Player Target { get; private set; }
 
     protected virtual void TakeDamage(float damage)
     {
         if (damage < 0)
             throw new ArgumentException("Damage value cannot be negative");
 
-        _currentHealth -= damage;
+        _health -= damage;
+
+        if (_health <= 0)
+        {
+            Die();
+        }
     }
 
-    protected void TryDie()
+    protected virtual void Die()
     {
-        if(_currentHealth <= 0)
-        {
-            Destroy(gameObject);
-        }
+        _dieSound.Play();
+        Destroy(gameObject);
+    }
+
+    public void SetDieSound(AudioSource dieSound)
+    {
+        _dieSound = dieSound;
+    }
+
+    public void SetTarget(Player target)
+    {
+        Target = target;
     }
 }

@@ -45,10 +45,8 @@ public class DronShooter : MonoBehaviour
         }
     }
 
-    private void OnDetected(Player target)
+    private void OnDetected()
     {
         _canShoot = true;
-
-        Destroy(gameObject.GetComponent<Animator>());
     }
 }
